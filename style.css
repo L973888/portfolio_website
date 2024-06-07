@@ -140,7 +140,7 @@ nav .nav__logo a span {
 */
 header {
   height: 100vh;
-  background-image: url("img/alex.jpg"); 
+  background-image: url("alex.jpg"); 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
