@@ -411,3 +411,325 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+
+
+
+
+
+
+/* General */
+body, html {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 90%;
+  }
+  
+  /* Navbar */
+  /*
+  .navbar {
+    background-color: #d7d9dc;
+    
+
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .nav-link { 
+    font-weight: bold;
+    color: #0d0d0d;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+*/
+  .custom-navbar {
+    background-color: #f8fafb; /* Blue background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+  }
+  
+  .custom-navbar .nav-link {
+    color: rgb(12, 0, 0); /* White text for nav links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #0520ef; /* Yellow color on hover for links */
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    /* Adjust logo height if necessary */
+  }
+  
+
+
+
+  /* Header */
+  header {
+    background-image: url('alex.jpg');
+    background-size: cover;       /* Makes the image cover the entire header area */
+    background-position: center;   /* Centers the image within the header */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    height: 600px;
+    width: 100%;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  
+  
+  header h1 {
+    margin-top: 200px;
+    font-size: 2.5rem;
+  }
+  
+  header .section__title span {
+    color: #ffce00;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  .btn-primary {
+    background-color: #ffce00;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e6b800;
+  }
+  
+  /* About Section */
+  #about .section__title span {
+    color: #007bff;
+  }
+  
+  #about p {
+    line-height: 1.6;
+  }
+  
+  .about__content .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .about__content .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+  .section__title {
+    font-size: 28px; /* Increase title size */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.resume-item {
+    margin-bottom: 30px; /* Space between resume items */
+}
+
+.bg-light {
+    background-color: #f8f9fa; /* Light background color for sections */
+}
+
+  
+  /* Skills Section */
+  /*
+  #skills .section__title span {
+    color: #007bff;
+  }
+  
+  #skills .card {
+    border: none;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  #skills .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #skills .card i {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  #skills .card h4 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+*/
+
+  #skills {
+    background-color: #f8fbfb; /* Light grey background color */
+    padding: 3rem 0; /* Adjust padding as needed */
+  }
+  
+  .card {
+    background-color: rgb(249, 247, 247); /* White background for cards */
+    border: 1px solid #f4f1f1; /* Light border for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    padding: 20px; /* Padding inside cards */
+    transition: transform 0.3s; /* Smooth scale effect on hover */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .card i {
+    font-size: 2rem; /* Increase icon size */
+    color: #007bff; /* Color for icons */
+  }
+  
+  .section__title {
+    margin-bottom: 2rem; /* Space below title */
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  /* Gallery Section */
+  #gallery .section__subtitle {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  #gallery .section__title span {
+    color: #007bff;
+  }
+  
+  #gallery img {
+    border-radius: 8px;
+    width: 100%;
+    height: 300px; /* Set a fixed height */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+
+  
+  .carousel-item img {
+    height: 400px; /* Set a fixed height for the carousel images */
+    object-fit: cover;
+  
+  }
+  
+  .custom-next {
+    color: red;
+    width: 80px;
+    font-weight: bold;
+  }
+  
+  .custom-next .carousel-control-next-icon {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(89%) saturate(6776%) hue-rotate(349deg) brightness(89%) contrast(115%);
+  }
+
+
+
+  /* Footer Section */
+  footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+  }
+  
+  footer h2 span {
+    color: #007bff;
+  }
+  
+  .footer__details p,
+  .footer__content p {
+    margin: 0;
+  }
+  
+  .footer__form .form-control {
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .social__icons {
+    margin-top: 1rem;
+  }
+  
+  .social__icons .icon {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social__icons .icon:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    #skills .card h4 {
+      font-size: 1.2rem;
+    }
+  
+    #gallery img {
+      width: 100%;
+    }
+  
+    .about__content .btn-outline-primary,
+    .footer__form .btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    header {
+      padding: 3rem 0;
+    }
+  
+    #about img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
